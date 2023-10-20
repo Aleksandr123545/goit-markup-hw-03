@@ -49,6 +49,20 @@ ol {
 img {
   display: block;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ===============header=============== */
 
 .container {
@@ -60,8 +74,8 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
@@ -143,6 +157,7 @@ img {
 
 .heroy-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .container-heroy {
   display: flex;
@@ -158,6 +173,7 @@ img {
   text-align: center;
   text-transform: uppercase;
 
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 188px;
@@ -175,6 +191,9 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
 
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -211,10 +230,12 @@ img {
   flex-direction: column;
   gap: 8px;
   align-items: flex-start;
+  width: calc((100% - 72px) / 4);
 }
 
 .studio-title-next {
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .studio-text {
@@ -331,6 +352,7 @@ img {
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .container-footer {
   display: flex;
@@ -353,6 +375,8 @@ img {
 }
 .footer-color-logo-studio {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
