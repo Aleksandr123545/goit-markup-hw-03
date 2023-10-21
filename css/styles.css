@@ -99,7 +99,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 
-  padding: 24px 0;
+  padding: 24px 0 24px;
   margin-right: 76px;
 }
 .header-nav-logo:hover,
@@ -231,7 +231,7 @@ img {
   flex-direction: column;
   gap: 8px;
   align-items: flex-start;
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .studio-title-next {
@@ -246,7 +246,7 @@ img {
   text-align: left;
 }
 
-/* =================section our time=============== */
+/* =================section our teame=============== */
 
 .our-teame-section {
   background-color: #f4f4fd;
@@ -389,6 +389,8 @@ img {
 }
 .footer-color-logo-studio {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
