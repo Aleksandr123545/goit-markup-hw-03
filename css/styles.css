@@ -376,7 +376,7 @@ img {
   flex-direction: column;
 }
 
-.footer-color-logo-web {
+.footer-logo-web {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -389,9 +389,8 @@ img {
 
   margin-bottom: 16px;
 }
-.footer-color-logo-studio {
+.footer-logo-studio {
   color: #f4f4fd;
-
   margin-bottom: 16px;
 }
 
