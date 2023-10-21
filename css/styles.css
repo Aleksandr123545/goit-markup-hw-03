@@ -224,6 +224,7 @@ img {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  padding-inline-start: 0;
 }
 
 .studio-link {
