@@ -99,7 +99,6 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 
-  padding: 24px 0 24px;
   margin-right: 76px;
 }
 .header-nav-logo:hover,
@@ -125,6 +124,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-nav-link:hover,
@@ -231,6 +231,9 @@ img {
   flex-direction: column;
   gap: 8px;
   align-items: flex-start;
+}
+
+.link {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -384,16 +387,19 @@ img {
   text-align: left;
   text-decoration: none;
 
-  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-color-logo-studio {
   color: #f4f4fd;
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 
 .footer-text {
   color: #f4f4fd;
   width: 264px;
+}
+
+.display {
+  display: inline-block;
 }
