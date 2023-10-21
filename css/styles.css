@@ -99,6 +99,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 
+  padding: 24px 0;
   margin-right: 76px;
 }
 .header-nav-logo:hover,
@@ -230,7 +231,7 @@ img {
   flex-direction: column;
   gap: 8px;
   align-items: flex-start;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .studio-title-next {
@@ -383,10 +384,8 @@ img {
   text-align: left;
   text-decoration: none;
 
-  margin-bottom: 16px;
   display: inline-block;
-  margin-top: 101.5px;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .footer-color-logo-studio {
   color: #f4f4fd;
@@ -395,5 +394,4 @@ img {
 .footer-text {
   color: #f4f4fd;
   width: 264px;
-  margin-bottom: 100px;
 }
