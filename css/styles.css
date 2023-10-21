@@ -249,11 +249,13 @@ img {
 
 .our-teame-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-teame-title {
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .our-teame-list {
@@ -274,22 +276,28 @@ img {
   width: 264px;
   height: 348px;
   margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-teame-description {
+  padding: 32px 0;
 }
 
 .our-teame-name {
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .our-teame-text {
   text-align: center;
   padding-bottom: 32px;
-  margin-top: 8px;
 }
 
 /* ==============our-portfolio============== */
 
 .our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container-our-portfolio {
@@ -329,6 +337,12 @@ img {
   flex-shrink: 0;
 }
 
+.our-portfolio-description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .our-portfolio-title-next {
   font-size: 20px;
   font-weight: 500;
@@ -336,7 +350,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
-  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-text {
@@ -345,7 +359,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   margin-top: 8px;
-  padding-bottom: 32px;
 }
 
 /* =================footer================ */
@@ -370,13 +383,13 @@ img {
   text-align: left;
   text-decoration: none;
 
+  margin-bottom: 16px;
+  display: inline-block;
   margin-top: 101.5px;
   margin-bottom: 17.5px;
 }
 .footer-color-logo-studio {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
